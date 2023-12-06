@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin:0px
 }
 
 body{
@@ -9,10 +10,21 @@ body{
 
 }
 
+.header-title{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    width:700px;
+    display:flex;
+    justify-content: center;
+    margin-top:3rem;
+    margin-bottom: 5rem;
+    font-size: 50px;
+}
+
 .page-container{
     height:30rem;
     width:700px;
-    margin-top:10rem;
     border-radius:10px;
     background-color: #99abb2;
 }
