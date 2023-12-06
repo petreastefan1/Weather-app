@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f1717;
+    display:flex;
+    justify-content: center;
+
+}
+
+.page-container{
+    height:30rem;
+    width:700px;
+    margin-top:10rem;
+    border-radius:10px;
+    background-color: #99abb2;
+}
