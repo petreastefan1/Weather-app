@@ -25,9 +25,28 @@ function ipApi(){
 }
 
 
-export async function getCityWeather(){
+export async function getCurrentLocationWeather(ip){
     try{
-        let data = await api("/current.json?q=Paris&lang=english","GET")
+        let data = await api(`/current.json?q=${ip}`,"GET")
+
+        let response = await data.json();
+
+        return response
+
+    }
+
+    catch(error){
+        console.log(error.code)
+        console.log(error.message)
+        return[]
+    }
+
+
+}
+
+export async function getWeatherByCity(city){
+    try{
+        let data = await api(`/current.json?q=${city}`,"GET")
 
         let response = await data.json();
 

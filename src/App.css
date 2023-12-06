@@ -28,3 +28,83 @@ body{
     border-radius:10px;
     background-color: #99abb2;
 }
+
+.current-weather-container{
+    padding-top:10px
+}
+.weather-info-container{
+    display:flex
+}
+
+.weather-temp{
+    display:flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    /*border:2px solid red;*/
+    width:max-content;
+}
+
+.weather-temp img{
+    width:90px
+}
+
+.current-temp-item{
+    position:relative;
+    left:-20px;
+    font-size: 50px;
+}
+.current-time-city-container{
+    padding-left:30px;
+    width:max-content;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 15rem;
+}
+
+.city-item{
+    font-size: 30px;
+}
+
+.feels-like-container{
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.weather-display-container{
+    display:flex
+}
+
+.city-info-container{
+    display:flex;
+}
+.city-input-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.city-input-container input{
+    height:30px;
+    border:none;
+    background-color: #d4dede;
+    margin-right:5px
+}
+
+.city-input-container button{
+    height:30px;
+    border-radius:5px;
+    border:none;
+    background-color: #3073ab;
+    font-weight: 600;
+
+}
+
+.city-input-container button:active{
+    color:white
+}
+
